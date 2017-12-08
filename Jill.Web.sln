@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.0
+VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jill.Web", "Jill.Web\Jill.Web.csproj", "{860D09C3-2971-4305-9C3B-9F7015B9EC5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jill.Web", "Jill.Web\Jill.Web.csproj", "{860D09C3-2971-4305-9C3B-9F7015B9EC5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jill.Data", "Jill.Data\Jill.Data.csproj", "{EC41A1EB-F35E-4CC6-B34E-FCD5E7CE6998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jill.Service", "Jill.Service\Jill.Service.csproj", "{C068F4A3-1ECE-4A66-92CF-53CF69940167}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{860D09C3-2971-4305-9C3B-9F7015B9EC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{860D09C3-2971-4305-9C3B-9F7015B9EC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{860D09C3-2971-4305-9C3B-9F7015B9EC5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC41A1EB-F35E-4CC6-B34E-FCD5E7CE6998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC41A1EB-F35E-4CC6-B34E-FCD5E7CE6998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC41A1EB-F35E-4CC6-B34E-FCD5E7CE6998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC41A1EB-F35E-4CC6-B34E-FCD5E7CE6998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C068F4A3-1ECE-4A66-92CF-53CF69940167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C068F4A3-1ECE-4A66-92CF-53CF69940167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C068F4A3-1ECE-4A66-92CF-53CF69940167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C068F4A3-1ECE-4A66-92CF-53CF69940167}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
